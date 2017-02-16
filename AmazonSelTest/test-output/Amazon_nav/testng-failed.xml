@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon_nav]">
+  <parameter name="browser" value="firefox"/>
+  <test name="amazon_reg_firebox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="amazon.RegressionTesting">
+        <methods>
+          <include name="browser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- amazon.RegressionTesting -->
+    </classes>
+  </test> <!-- amazon_reg_firebox(failed) -->
+</suite> <!-- Failed suite [Amazon_nav] -->

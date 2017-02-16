@@ -1,0 +1,8 @@
+<suite name="Amazon_nav">
+<test name="amazon_reg_firebox">
+<classes>
+    <parameter name="browser" value="firefox"/>
+    <class name="amazon.RegressionTesting"/>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon_nav" duration-ms="56" started-at="2017-02-16T18:19:59Z" finished-at="2017-02-16T18:19:59Z">
+    <groups>
+    </groups>
+    <test name="amazon_reg_firebox" duration-ms="56" started-at="2017-02-16T18:19:59Z" finished-at="2017-02-16T18:19:59Z">
+      <class name="amazon.RegressionTesting">
+        <test-method status="FAIL" signature="browser(java.lang.String)[pri:0, instance:null]" name="browser" duration-ms="18" started-at="2017-02-16T23:49:59Z" finished-at="2017-02-16T23:49:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can't invoke public void amazon.RegressionTesting.browser(java.lang.String) throws java.lang.Exception: either make it static or add a no-args constructor to your class]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can't invoke public void amazon.RegressionTesting.browser(java.lang.String) throws java.lang.Exception: either make it static or add a no-args constructor to your class
+	at org.testng.internal.Utils.checkInstanceOrStatic(Utils.java:795)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:40)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+      </class> <!-- amazon.RegressionTesting -->
+    </test> <!-- amazon_reg_firebox -->
+  </suite> <!-- Amazon_nav -->
+</testng-results>
