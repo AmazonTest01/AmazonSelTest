@@ -77,9 +77,9 @@ public class Home
 	   Thread.sleep(6000);
 	   driver.findElement(By.linkText("Today's Deals")).click();
 	   Thread.sleep(6000);
-	   driver.findElement(By.id("a-autoid-1-announce")).click();
+	   driver.findElement(By.xpath("//a[@class='a-button-text a-text-center']")).click();
 	   Thread.sleep(4000);
-	   driver.findElement(By.xpath("//a[@title='American Tourister Crete Polyester 77cms Black Softsided Suitcase (49W (0) 09 003)']")).click();
+	   driver.findElement(By.xpath("//a[@class='a-link-normal s-access-detail-page  a-text-normal']")).click();
 	   Thread.sleep(2000);
 
 	   

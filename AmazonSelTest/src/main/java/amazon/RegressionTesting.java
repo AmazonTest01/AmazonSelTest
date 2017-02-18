@@ -8,11 +8,6 @@ import org.testng.annotations.Test;
 public class RegressionTesting 
 {
    WebDriver driver;
-   public RegressionTesting(WebDriver d)
-   {
-	   driver=d;
-   }
-	
    @Test
    @Parameters({"browser"})
 	public void browser (String str) throws Exception
